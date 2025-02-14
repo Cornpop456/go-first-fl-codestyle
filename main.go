@@ -6,7 +6,6 @@ import (
 	"strings"
 )
 
-// randint generates a random integer between min (inclusive) and max (exclusive).
 func randint(min, max int) int {
 	return rand.Intn(max-min) + min
 }
